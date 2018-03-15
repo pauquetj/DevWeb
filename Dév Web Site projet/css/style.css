@@ -1,0 +1,164 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/********** F O N T S **********/
+
+
+/********** H E A D E R **********/
+
+header{
+  width: 15%;
+}
+
+nav{
+  height: 100%;
+  background-color: rgb(53,54,55);
+  padding-top: 3%;
+  text-align: center;
+  box-shadow: 2px 0px 3px rgb(0,0,0);
+}
+nav ul{
+  margin: 10px;
+  text-align: center;
+  padding: 0px;
+}
+nav li{
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-family: Times new roman, Arial, sans-serif; 
+  padding: 7px;
+  font-size: 1.2em;
+}
+
+
+/********** B O D Y **********/
+
+body{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(240,240,240);
+}
+
+/********** B L O C K S **********/
+
+section{
+  width:85%;
+  padding-bottom: 50px;
+}
+
+article{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+aside{
+   
+}
+
+.line{
+  height: 2px;
+  background-color: rgb(152,74,138);
+  margin: 50px 0px 50px 0;
+}
+
+/********** F O O T E R **********/
+
+footer{
+  z-index: 2;
+  margin-top: 0px;
+  width:95%;
+  text-align: right;
+  padding: 10px;
+  background-image: linear-gradient(to left, rgb(152,74,138) 0%, rgb(95,45,104) 100%);
+  /*background-color: rgb(95,45,104);*/
+  box-shadow: 2px 2px 3px rgb(0,0,0);
+}
+
+.grey_bar{
+  padding: 0px;
+  background-color: rgb(53,54,55);
+  height: 20px;
+  width: 15%;
+  box-shadow: 2px 0px 3px rgb(0,0,0);
+}
+
+/********** T E X T **********/
+
+p{
+  font-size: 1em;
+}
+
+h1{ /* Main title */
+  font-size: 1.8em;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+h2{ /* Subtitle */
+  font-size: 1.6em;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+}
+h3{ /* Title 1 */
+  font-size: 1.4em;
+  font-weight: bold;
+}
+h4{ /* Title 2 */
+  font-size: 1.3em;
+  font-weight: normal;
+}
+h5{ /* Title 3 */
+  font-size: 1.2em;
+  font-weight: normal;
+}
+h6{ /* details */
+  font-size: 0.8em;
+  font-weight: normal;
+}
+.centered{
+  text-align: center;
+}
+
+/********** E L E M E N T S **********/
+
+li{
+  list-style: none;
+}
+.main_list{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+table{
+  font-size: 1.4em;
+  text-align: center;
+  margin:auto;
+  border-spacing: 100px 10px;
+}
+tr{
+}
+th{
+  font-weight: bold;
+}
+td{
+}
+
+/********** L I N K S **********/
+
+a, a:visited{
+  color: rgb(220,220,220);
+  text-decoration: none;
+}
+
+a:hover{
+
+}
+iframe, img {
+  
+}
